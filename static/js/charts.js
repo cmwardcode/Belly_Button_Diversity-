@@ -113,7 +113,7 @@ function buildCharts(sample) {
         marker: {
           color: otu_ids,
           size: sample_values,
-          colorscale: "Blues"
+          colorscale: "aquamarine"
         }
       };
   
@@ -134,7 +134,7 @@ function buildCharts(sample) {
         value: washFrequency,
         title: { text: "<b>Bellybutton Washing Frequency</b> <br>Scrubs per Week", font: { size: 24 } },
         gauge: {
-          axis: { range: [null, 10], tickcolor: "darkblue" },
+          axis: { range: [null, 10], tickcolor: "black" },
           bar: { color: "black" },
           bgcolor: "white",
           borderwidth: 2,
